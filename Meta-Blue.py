@@ -14,7 +14,7 @@ sudo apt-get install libglib2.0-dev
 sudo apt-get install python-dev
 sudo pip install gattlib
 sudo pip install matplotlib
-apt-get install python-tk
+sudo apt-get install python-tk
 sudo pip install pybluez
 
 """
@@ -139,3 +139,5 @@ def graph(graph_time):
 	
 	
 graph(sys.argv[1])
+# Usage 
+# sudo python Meta-Blue.py 5
