@@ -1,10 +1,30 @@
+#!/usr/bin/python
+
 # https://pythonprogramming.net/live-graphs-matplotlib-tutorial/
 # https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.subplots.html
 # https://www.scivision.dev/matplotlib-force-integer-labeling-of-axis/
 
 """
 Bluetooth Visualisation, using the MatplotLib Animation function 
+
+Meta-Blue Visualise Bluetooth Low Energy Metadata
+# https://github.com/karulis/pybluez - pybluez library
+# sudo apt-get install libbluetooth-dev
+#https://matplotlib.org/users/pyplot_tutorial.html - dual graph tutorial
+
+sudo apt-get install pkg-config
+sudo apt-get install libboost-python-dev
+sudo apt-get install libboost-thread-dev
+sudo apt-get install libbluetooth-dev
+sudo apt-get install libglib2.0-dev
+sudo apt-get install python-dev
+sudo pip install gattlib
+sudo pip install matplotlib
+sudo apt-get install python-tk
+sudo pip install pybluez
+
 """
+
 
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
