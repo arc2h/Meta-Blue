@@ -137,3 +137,5 @@ def animate(i):
 ani = animation.FuncAnimation(fig, animate, interval=1000)
 plt.show()
 
+# Usage sudo python Meta_Blue2.py
+
