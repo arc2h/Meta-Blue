@@ -79,6 +79,9 @@ axs[1].set_ylabel("Device ID")
 axs[1].yaxis.set_major_locator(MaxNLocator(integer=True))
 fig.suptitle("Bluetooth Device Tracking", fontsize=24)
 fig.canvas.set_window_title("Meta_Blue")
+scatter_size = 10
+line_width = 0.5
+
 
 mac_value_count = 1
 
@@ -114,7 +117,7 @@ def animate(i):
 	
 	
 	# Plot number of devices
-	axs[0].plot(xs, ys, linewidth=1,c='r')
+	axs[0].plot(xs, ys, linewidth=line_width,c='r')
 	
 	# Plot MAC addresses from current list, do not clear each time, to persist previous mac addresses
 	for mac in devices:
@@ -122,14 +125,14 @@ def animate(i):
 			existing_mac_value = mac_dict[mac]
 			colour = dev_colours[existing_mac_value]
 			#print mac, colour, existing_mac_value
-			axs[1].scatter(current_time, existing_mac_value, c=colour)
+			axs[1].scatter(current_time, existing_mac_value, c=colour, s=scatter_size)
 		
 		else:
 			print mac
 			mac_dict[mac] = mac_value_count
 			colour = (random.choice(colours))
 			dev_colours[mac_value_count] = colour
-			axs[1].scatter(current_time ,mac_value_count, c=colour)#, s=scatter_size)
+			axs[1].scatter(current_time ,mac_value_count, c=colour, s=scatter_size)
 			mac_value_count+=1
 			#print "new", mac, colour
 
