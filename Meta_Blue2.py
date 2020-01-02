@@ -5,11 +5,22 @@
 # https://www.scivision.dev/matplotlib-force-integer-labeling-of-axis/
 
 """
-Bluetooth Visualisation, using the MatplotLib Animation function 
+Meta-Blue Captures and Visualises BLE Advertising Packets Copyright (C) 2020 Robert Hegarty
 
-Meta-Blue Visualise Bluetooth Low Energy Metadata
-https://github.com/karulis/pybluez - pybluez library
-https://matplotlib.org/users/pyplot_tutorial.html - dual graph tutorial
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
 
 The following libraries may be required.
 
