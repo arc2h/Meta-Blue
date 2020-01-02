@@ -8,9 +8,10 @@
 Bluetooth Visualisation, using the MatplotLib Animation function 
 
 Meta-Blue Visualise Bluetooth Low Energy Metadata
-# https://github.com/karulis/pybluez - pybluez library
-# sudo apt-get install libbluetooth-dev
-#https://matplotlib.org/users/pyplot_tutorial.html - dual graph tutorial
+https://github.com/karulis/pybluez - pybluez library
+https://matplotlib.org/users/pyplot_tutorial.html - dual graph tutorial
+
+The following libraries may be required.
 
 sudo apt-get install pkg-config
 sudo apt-get install libboost-python-dev
