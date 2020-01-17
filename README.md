@@ -7,7 +7,11 @@ Second version uses matplotlib animation function
 
 The tools is a little rough around the edges, and demonstrates a basic proof of concept.
 
+Download and install pybluez and its dependencies using the instructions from:
+https://github.com/karulis/pybluez
+
 Thanks to:
+https://github.com/karulis/pybluez
 
 https://github.com/zsdonghao/pybluez
 
